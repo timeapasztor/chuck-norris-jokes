@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component Matches the snapshot 1`] = `
+<button>
+  Nothing to do for now
+</button>
+`;
+
+exports[`Clicking on button Get me a new one 1`] = `
+Array [
+  <div />,
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-text"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Get me a new one ...
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </button>,
+]
+`;
+
+exports[`First load of a random joke 1`] = `
+Array [
+  <div />,
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-text"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Get me a new one ...
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </button>,
+]
+`;
+
+exports[`Image on random joke page Matches the snapshot 1`] = `
+<img
+  alt="signature of chuck norris"
+  src="background.png"
+/>
+`;
+
+exports[`Loading random jokes 1`] = `<div />`;
+
+exports[`Random joke description Matches the snapshot 1`] = `
+<div>
+  Chuck Norris joke
+</div>
+`;
+
+exports[`it works 1`] = `
+<div
+  className="sc-bczRLJ insazo"
+/>
+`;
+
+exports[`your test name 1`] = `<div />`;
