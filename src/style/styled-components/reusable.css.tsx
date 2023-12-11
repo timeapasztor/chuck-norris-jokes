@@ -3,6 +3,17 @@ import getTheme, { fontWeightsCSS } from '../themes/theme';
 
 const theme: any = getTheme();
 
+export const IconWrapper = styled.span`
+    img {
+        height: 20px;
+    }
+    @media screen and (min-width: 1170px) {
+        img {
+            height: 26px;
+        }
+    }
+`;
+
 export const DescriptionBox = styled.div`
     display: flex;
     flex-direction: row;

@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import Api from '../../api/Api';
+import React, { useContext, useEffect, useState } from 'react';
 import background from '../../style/images/background.png';
 import Tooltip from '@mui/material/Tooltip';
 import { Button } from '@material-ui/core';
@@ -10,6 +9,7 @@ import { DescriptionBox, JokeDescription, QuoteMark } from '../../style/styled-c
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../../store';
 import allActions from '../../actions';
+import Api from '../../api/Api';
 
 const theme: any = getTheme();
 

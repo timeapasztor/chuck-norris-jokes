@@ -5,12 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { store } from './store';
 import { Provider } from 'react-redux';
+import { ReferencialProvider } from './provider/ReferencialContext';
 
 ReactDOM.render(
     <React.StrictMode>
-        <Provider store={store}>
-            <App />
-        </Provider>
+        <ReferencialProvider>
+            <Provider store={store}>
+                <App />
+            </Provider>
+        </ReferencialProvider>
     </React.StrictMode>,
     document.getElementById('root')
 );

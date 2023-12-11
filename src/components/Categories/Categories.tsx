@@ -76,7 +76,7 @@ const Categories: React.FC = () => {
     };
 
     const renderCategoryItems = () => {
-        let categoryListToRender: any[] = [];
+        let categoryListToRender: JSX.Element[] = [];
         categories.forEach((category, index) => {
             categoryListToRender.push(
                 <ListItem
